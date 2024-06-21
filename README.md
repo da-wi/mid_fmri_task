@@ -1,5 +1,7 @@
 # Monetary incentive delay task 
 
+![Overview](https://raw.githubusercontent.com/da-wi/mid_fmri_task/master/instruction/mid_fmri_task.png)
+
 ## Installation
 
 Requirements
