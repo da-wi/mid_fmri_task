@@ -31,6 +31,35 @@ python mid_task_v5.py3 SUBJECTID -s single -o -t 1
 3. Start the task by pressing "t"
 4. Press the button "b" whenever you see the target (star symbol)
 
+## Arguments
+
+```
+usage: mid_task_v5.py3 [-h] [-s SCREENMODE] [-bg BGCOLOR] [-r RUN] [-e] [-o] [-c COLORTYPE] [-t SHAPETYPE] [-S] [-l]
+                       subjectid
+
+Monetary incentive delay task
+
+positional arguments:
+  subjectid             mandatory subject id
+
+options:
+  -h, --help            show this help message and exit
+  -s SCREENMODE, --screenmode SCREENMODE
+                        dual or single screenmode [single,dual]
+  -bg BGCOLOR, --bgcolor BGCOLOR
+                        colortype 1 = black, colortype 2 = grey [1,2]
+  -r RUN, --run RUN     determines the run number for the subject [1,2]
+  -e, --emulation       Sets emulation mode for use outside the scanner
+  -o, --omitcolor       Do not use any color
+  -c COLORTYPE, --colortype COLORTYPE
+                        colortype blue/orange (LOSS,GAIN,NEUTRAL) - 1=(Blu,Ora,Gray),2=(Ora,Blu,Gray),3=(Ora,Gray,Blu)
+                        ,4=(Gray,Ora,Blu),5=(Gray,Blu,Ora),6=(Blu,Gray,Ora) [1-6]
+  -t SHAPETYPE, --shapetype SHAPETYPE
+                        determines the randomization of cues [1,2,3,4,5,6]
+  -S, --shortversion    Starts a shortversion of the task
+  -l, --forcelogdir     Force Logdir creation
+```
+
 ## References
 
 If you use this task, please cite one of the following publications:
