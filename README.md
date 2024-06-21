@@ -31,6 +31,8 @@ python mid_task_v5.py3 SUBJECTID -s single -o -t 1
 
 ## References
 
+If you use this task, please cite one of the following publications:
+
 - Willinger, D., Karipidis, I. I., Dimanova, P., Walitza, S., & Brem, S. (2021). Neurodevelopment of the incentive network facilitates motivated behaviour from adolescence to adulthood. _NeuroImage_, 237, 118186.
 
 - Willinger, D., Karipidis, I. I., Neuer, S., Emery, S., Rauch, C., Häberling, I., ... & Brem, S. (2022). Maladaptive avoidance learning in the orbitofrontal cortex in adolescents with major depression. _Biological Psychiatry: Cognitive Neuroscience and Neuroimaging, 7_ (3), 293-301.
